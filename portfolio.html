@@ -13,9 +13,115 @@
     />
     <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css" />
     <script src="https://wowjs.uk/dist/wow.min.js"></script>
-
-    <link rel="stylesheet" href="portfolio.css" />
   </head>
+  <style>
+    @charset "UTF-8";
+    body {
+      min-height: 100vh;
+      color: #0062cc;
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+    }
+
+    @font-face {
+      font-family: "NanumSquareRound";
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+        format("woff");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    * {
+      font-family: "NanumSquareRound";
+    }
+
+    .blinking-cursor {
+      pointer-events: none;
+      user-select: none;
+      animation: blink 1s steps(2, start) infinite;
+    }
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    .my-box {
+      margin: 100px;
+    }
+
+    .myname {
+      color: #f4a42c;
+      font-weight: bold;
+    }
+
+    .intro-co {
+      color: #797c80;
+    }
+    div.container-intro {
+      margin-top: 100px;
+    }
+
+    .my-img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .github {
+      height: 50px;
+    }
+
+    .main-story {
+      text-align: center;
+      margin: 100px;
+    }
+    .main-story-title {
+      color: #0b509c;
+      font-weight: bold;
+    }
+
+    .hash-tag {
+      color: #f4a42c;
+      font-size: 20px;
+    }
+
+    .slide-show {
+      width: 60%;
+    }
+
+    .test {
+      width: 60%;
+    }
+
+    .history {
+      margin: 70px;
+    }
+
+    .my-skill {
+      margin-bottom: 150px;
+    }
+
+    #text-write-title {
+      font-weight: bold;
+      color: #f4a42c;
+    }
+
+    p#text-write-sub {
+      font-size: 15px;
+      line-height: 50%;
+      color: #8b8f94;
+    }
+
+    .date-de {
+      color: #f4a42c;
+      font-weight: bold;
+    }
+
+    .de-write {
+      color: #8b8f94;
+    }
+  </style>
 
   <body>
     <script>
