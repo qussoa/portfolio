@@ -7,6 +7,18 @@ body {
   align-items: center;
 }
 
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "NanumSquareRound";
+}
+
 .blinking-cursor {
   pointer-events: none;
   user-select: none;
@@ -18,13 +30,13 @@ body {
   }
 }
 
+.my-box {
+  margin: 100px;
+}
+
 .myname {
   color: #f4a42c;
   font-weight: bold;
-}
-
-.hash-tag {
-  color: #f4a42c;
 }
 
 .intro-co {
@@ -45,10 +57,32 @@ div.container-intro {
 
 .main-story {
   text-align: center;
+  margin: 100px;
+}
+.main-story-title {
+  color: #0b509c;
+  font-weight: bold;
+}
+
+.hash-tag {
+  color: #f4a42c;
+  font-size: 20px;
+}
+
+.slide-show {
+  width: 60%;
 }
 
 .test {
   width: 60%;
+}
+
+.history {
+  margin: 70px;
+}
+
+.my-skill {
+  margin-bottom: 150px;
 }
 
 #text-write-title {
@@ -69,8 +103,4 @@ p#text-write-sub {
 
 .de-write {
   color: #8b8f94;
-}
-
-.main-story-title {
-  color: #0b509c;
 }
